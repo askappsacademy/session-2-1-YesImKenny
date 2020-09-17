@@ -16,3 +16,8 @@ For extra credit, create a conditional that executes a message if the sum is ove
 ********************/
 
 // Your Solution:
+function jsSum (num1, num2) {
+  let result = num1 + num2;
+  return result;
+}
+console.log(jsSum(2, 3));
