@@ -18,6 +18,9 @@ For extra credit, create a conditional that executes a message if the sum is ove
 // Your Solution:
 function jsSum (num1, num2) {
   let result = num1 + num2;
+  if (result > 10 || result < 100) {
+    return "This result is within bounds!";
+  }
   return result;
 }
-console.log(jsSum(2, 3));
+console.log(jsSum(10, 3));
